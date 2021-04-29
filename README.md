@@ -38,5 +38,8 @@ may be different, due to some changes in newer version's entity tagger;
 
 Moreover, the .ipynb file requires the presence of `conll.py` inside the same folder, so that it can import the `evaluate()` function for Exercises 2 & 3.
 
+**Note on Seaborn**: to have a better view of Exercise 2 results, an histogram is plot using Seaborn library. This is best viewed in Jupyter or Google Colaboratory, and so 
+it has not been tested for local execution; it should not cause any issue (other than missing the histogram plot).
+
 ### Execution time
 Due uniquely to SpaCy parsing method, which takes the great majority of execution time, a single run of this project requires around **1.30 - 2 minutes** to be completed. 
