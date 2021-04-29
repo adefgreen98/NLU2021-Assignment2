@@ -3,12 +3,12 @@
 In this assignment we are required to test the SpaCy parser using the CoNLL 2003 dataset as ground-truth for comparison.
 
 ### Directory structure
-For the execution of this project it is *highly recommended* to use Google Colab. If that is not the case, then these are the instructions for
+For the execution of this project it is *highly recommended* to use Google Colab. If that is not the case, here are the instructions for
 the required directory structure.
 
-If the .ipynb is not changed, it automatically downloads this repo and creates the correct arrangement of directories needed for execution. 
+If the .ipynb is not modified, it automatically downloads this repo and creates the correct arrangement of directories needed for execution. 
 
-Otherwise, if the cell containing git request is deactivated, then the required directory structure is the following one: 
+Otherwise, if both the git-request cell and the copy cell (to put `conll.py` in parent directory) are deactivated, the program expects to find the following directory structure: 
 ```
 <parent>
   |_Assignment2.ipynb
@@ -18,7 +18,7 @@ Otherwise, if the cell containing git request is deactivated, then the required 
       |_data/
           |_conll2003.zip
 ```
-In this case, it will extract the .zip file automatically; if this is not desired, then also a directory named `data` should be included at the parent directory level, like this:
+Note that in this case it will **extract the .zip** file automatically. If this is not desired, then also a directory named `data` should be included at the parent directory level, with inside the `test.txt` test set:
 ```
 <parent>
   |_Assignment2.ipynb
